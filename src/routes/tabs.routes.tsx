@@ -1,30 +1,39 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import Dashboard from '../screens/dashboard'
-import MonitorarDominios from '../screens/dominios'
-import { Feather } from '@expo/vector-icons'
-import VazamentoDado from '../screens/vazamento'
-import Alertas from '../screens/alertas'
+import { SimpleLineIcons } from '@expo/vector-icons'
+import { useTheme } from '../hooks/useTheme'
+import Alertas from '../screens/Alertas'
+import Dashboard from '../screens/Dashboard'
+import MonitorarDominios from '../screens/Dominios'
+import VazamentoDado from '../screens/Vazamento'
 
 const TabNavigator = createBottomTabNavigator()
 
 export default function TabNavigation() {
+    const {theme} = useTheme()
     return (
-      <TabNavigator.Navigator>
-        <TabNavigator.Screen name='Feed' component={Dashboard} options={{
+      <TabNavigator.Navigator screenOptions={{
+        tabBarActiveTintColor: '#F2600C',
+        tabBarInactiveTintColor: theme === 'light'? '#1B1A26' : '#FFF',
+        tabBarBadgeStyle: { backgroundColor: '#F2600C'} ,
+        tabBarStyle: { backgroundColor: theme === 'light'? '#FFF' :'#1B1A26' },
+        
+      }}>
+        <TabNavigator.Screen name='Início' component={Dashboard} options={{
           headerShown: false,
-          tabBarIcon: ({ color, size }) => <Feather name='home' size={size} color={color} />
+          tabBarIcon: ({ color, size }) => <SimpleLineIcons name='home' size={size} color={color} />
         }} />
-        <TabNavigator.Screen name='New' component={MonitorarDominios} options={{
+        <TabNavigator.Screen name='Monitoramento' component={MonitorarDominios} options={{
           headerShown: false,
-          tabBarIcon: ({ color, size }) => <Feather name='plus-circle' size={size} color={color} />
+          tabBarIcon: ({ color, size }) => <SimpleLineIcons name='globe' size={size} color={color} />
         }} />
-        <TabNavigator.Screen name='Vazamento' component={VazamentoDado} options={{
+        <TabNavigator.Screen name='Dados Vazados' component={VazamentoDado} options={{
           headerShown: false,
-          tabBarIcon: ({ color, size }) => <Feather name='home' size={size} color={color} />
+          tabBarIcon: ({ color, size }) => <SimpleLineIcons name='exclamation' size={size} color={color} />
         }} />
-        <TabNavigator.Screen name='Alerta' component={Alertas} options={{
+        <TabNavigator.Screen name='Alertas' component={Alertas} options={{
           headerShown: false,
-          tabBarIcon: ({ color, size }) => <Feather name='home' size={size} color={color} />
+          tabBarIcon: ({ color, size }) => <SimpleLineIcons name='bell' size={size} color={color} />,
+          tabBarBadge: 3,
         }} />
       </TabNavigator.Navigator>
     )
