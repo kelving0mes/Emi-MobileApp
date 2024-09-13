@@ -5,6 +5,7 @@ import Alertas from '../screens/Alertas'
 import Dashboard from '../screens/Dashboard'
 import MonitorarDominios from '../screens/Dominios'
 import VazamentoDado from '../screens/Vazamento'
+import Login from '../screens/Login'
 
 const TabNavigator = createBottomTabNavigator()
 
@@ -18,6 +19,10 @@ export default function TabNavigation() {
         tabBarStyle: { backgroundColor: theme === 'light'? '#FFF' :'#1B1A26' },
         
       }}>
+        <TabNavigator.Screen name='Login' component={Login} options={{
+          headerShown: false,
+          tabBarIcon: ({ color, size }) => <SimpleLineIcons name='login' size={size} color={color} />
+        }} />
         <TabNavigator.Screen name='Início' component={Dashboard} options={{
           headerShown: false,
           tabBarIcon: ({ color, size }) => <SimpleLineIcons name='home' size={size} color={color} />

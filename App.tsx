@@ -9,3 +9,6 @@ export default function App() {
     </ThemeProvider>
   );
 }
+// Cores
+// #1B1A26 - preto
+// #F2600C - laranja

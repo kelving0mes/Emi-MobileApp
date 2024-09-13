@@ -6,11 +6,10 @@ export default function Dashboard() {
     const styles = StyleSheet.create({
         container: {
           flex: 1,
-          backgroundColor: '#BFB39B',
+          backgroundColor: '#F2ECE4',
           alignItems: 'center',
           justifyContent: 'center',
         },
-    
       });
     return(
         <View style={styles.container}>
