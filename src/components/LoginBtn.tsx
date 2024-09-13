@@ -9,7 +9,7 @@ export default function LoginBtn() {
 }
 const styles = StyleSheet.create({
     loginBtn: {
-        backgroundColor: '#F2600C',
+        backgroundColor: '#1B1A26',
         width: '65%',
         padding: 12,
         borderRadius: 5,

@@ -9,7 +9,7 @@ export default function Login() {
             <View style={{flex:2}}>
                 <LoginHeader />
             </View>
-            <View style={{flex:6, width:'100%', alignItems:"center"}}>
+            <View style={styles.viewContainer}>
                 <Text style={styles.loginText}>Faça seu login</Text>
                 <TextInput placeholder="email" style={styles.textInput} />
                 <TextInput placeholder="senha" secureTextEntry={true} style={styles.textInput} />
@@ -21,13 +21,21 @@ export default function Login() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#F2ECE4',
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: '#F2ECE4',
+    },
+    viewContainer:{
+        flex:6, 
+        backgroundColor: '#F2600C',
+        width:'100%', 
+        alignItems:"center",
+        borderTopLeftRadius: 80,
+        borderTopRightRadius: 80,
     },
     loginText: {
         fontSize: 24,
-        color: '#F2600C',
+        color: '#F2ECE4',
         marginVertical: 80,
     },
     textInput: {

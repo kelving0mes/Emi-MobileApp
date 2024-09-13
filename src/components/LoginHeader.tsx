@@ -22,14 +22,11 @@ const styles = StyleSheet.create({
         height: 120,
     },
     background:{
-        backgroundColor: '#F2600C',
         height:'100%',
         minWidth:'100%',
-        borderBottomLeftRadius: 100,
-        borderBottomRightRadius: 100,
     },
     text:{
-        color: '#FFF',
+        color: '#F2600C',
         fontSize: 28,
         alignSelf: 'center',
         position: 'absolute',

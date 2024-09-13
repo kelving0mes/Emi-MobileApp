@@ -1,11 +1,11 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { SimpleLineIcons } from '@expo/vector-icons'
 import { useTheme } from '../hooks/useTheme'
-import Alertas from '../screens/Alertas'
-import Dashboard from '../screens/Dashboard'
-import MonitorarDominios from '../screens/Dominios'
-import VazamentoDado from '../screens/Vazamento'
-import Login from '../screens/Login'
+import Alertas from '../screens/Altas'
+import Dashboard from '../screens/Dasard'
+import MonitorarDominios from '../screens/Dominiofsesefs'
+import VazamentoDado from '../screens/Vanto'
+import Login from '../screens/Lon'
 
 const TabNavigator = createBottomTabNavigator()
 
