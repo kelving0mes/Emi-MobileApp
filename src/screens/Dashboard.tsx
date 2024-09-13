@@ -1,5 +1,6 @@
 import { Button, StyleSheet, Text, View } from "react-native";
 import { useTheme } from "../hooks/useTheme";
+import LogoutBtn from "../components/LogoutBtn";
 
 export default function Dashboard() {
     const {toggleTheme} = useTheme()
@@ -15,6 +16,7 @@ export default function Dashboard() {
         <View style={styles.container}>
             <Text>Dashboard</Text>
             <Button title="Alterar Tema" onPress={toggleTheme}/>
+            <LogoutBtn/>
         </View>
     )
 }

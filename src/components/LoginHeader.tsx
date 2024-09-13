@@ -5,9 +5,7 @@ export default function LoginHeader(){
     return (
         <View style={styles.background}>
             <Image 
-            source={require('../../assets/EmiAvatar.png')} // Substitua pelo caminho correto da sua imagem
-            style={styles.emiIcon}
-            />
+            source={require('../../assets/EmiAvatar.png')} style={styles.emiIcon}/>
             <Text style={styles.text}>Emi</Text>
         </View>
     )
