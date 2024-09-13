@@ -1,11 +1,11 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { SimpleLineIcons } from '@expo/vector-icons'
 import { useTheme } from '../hooks/useTheme'
-import Alertas from '../screens/Altas'
-import Dashboard from '../screens/Dasard'
-import MonitorarDominios from '../screens/Dominiofsesefs'
-import VazamentoDado from '../screens/Vanto'
-import Login from '../screens/Lon'
+import Alertas from '../screens/Alertas'
+import Dashboard from '../screens/Dashboard'
+import MonitorarDominios from '../screens/Dominios'
+import VazamentoDado from '../screens/Vazamento'
+
 
 const TabNavigator = createBottomTabNavigator()
 
@@ -17,12 +17,7 @@ export default function TabNavigation() {
         tabBarInactiveTintColor: theme === 'light'? '#1B1A26' : '#FFF',
         tabBarBadgeStyle: { backgroundColor: '#F2600C'} ,
         tabBarStyle: { backgroundColor: theme === 'light'? '#FFF' :'#1B1A26' },
-        
       }}>
-        <TabNavigator.Screen name='Login' component={Login} options={{
-          headerShown: false,
-          tabBarIcon: ({ color, size }) => <SimpleLineIcons name='login' size={size} color={color} />
-        }} />
         <TabNavigator.Screen name='Início' component={Dashboard} options={{
           headerShown: false,
           tabBarIcon: ({ color, size }) => <SimpleLineIcons name='home' size={size} color={color} />
