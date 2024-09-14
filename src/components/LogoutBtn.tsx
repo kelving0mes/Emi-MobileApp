@@ -18,7 +18,7 @@ export default function LogoutBtn() {
             style={styles.loginBtn} 
             onPress={() => navigation.navigate("Login")}
         >
-            <Text style={{ color: '#FFF' }}>Sair</Text>
+            <Text style={{ color: '#F5F5F5' }}>Sair</Text>
         </TouchableOpacity>
     );
 }

@@ -11,4 +11,9 @@ export default function App() {
 }
 // Cores
 // #1B1A26 - preto
+// #32313c - tom acima preto
+
+// #F5F5F5 - branco
+// #DDDDDD - tom abaixo branco
+
 // #F2600C - laranja

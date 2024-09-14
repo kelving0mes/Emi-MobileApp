@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#F2ECE4',
+        backgroundColor: '#F5F5F5',
     },
     viewContainer:{
         flex:6, 
@@ -35,11 +35,11 @@ const styles = StyleSheet.create({
     },
     loginText: {
         fontSize: 24,
-        color: '#F2ECE4',
+        color: '#F5F5F5',
         marginVertical: 80,
     },
     textInput: {
-        backgroundColor: '#FFF',
+        backgroundColor: '#F5F5F5',
         width: '65%',
         padding: 12,
         borderRadius: 5,

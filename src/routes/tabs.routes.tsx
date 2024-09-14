@@ -14,9 +14,9 @@ export default function TabNavigation() {
     return (
       <TabNavigator.Navigator screenOptions={{
         tabBarActiveTintColor: '#F2600C',
-        tabBarInactiveTintColor: theme === 'light'? '#1B1A26' : '#FFF',
+        tabBarInactiveTintColor: theme === 'light'? '#1B1A26' : '#F5F5F5',
         tabBarBadgeStyle: { backgroundColor: '#F2600C'} ,
-        tabBarStyle: { backgroundColor: theme === 'light'? '#FFF' :'#1B1A26' },
+        tabBarStyle: { backgroundColor: theme === 'light'? '#F5F5F5' :'#1B1A26' },
       }}>
         <TabNavigator.Screen name='Início' component={Dashboard} options={{
           headerShown: false,

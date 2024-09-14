@@ -16,7 +16,7 @@ export default function LoginBtn() {
         <TouchableOpacity 
             style={styles.loginBtn} 
             onPress={() => navigation.navigate('TabNavigation')}>
-            <Text style={{ color: '#FFF' }}>Entrar</Text>
+            <Text style={{ color: '#F5F5F5' }}>Entrar</Text>
         </TouchableOpacity>
     );
 }
