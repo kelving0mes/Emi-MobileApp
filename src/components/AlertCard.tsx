@@ -21,7 +21,6 @@ export default function AlertCard(AlertCardProps: AlertCardProps){  {
             borderWidth: 1,
             borderRadius: 10,
             gap: 8,
-
         },
         textTitle:{
             color: theme === 'light'? '#1B1A26' :'#F5F5F5',

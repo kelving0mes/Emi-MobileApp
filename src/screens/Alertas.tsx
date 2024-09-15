@@ -14,7 +14,7 @@ export default function Alertas() {
         color: theme === 'light'? '#1B1A26' :'#F5F5F5',
         fontSize: 21,
         alignSelf: 'flex-start',
-        marginTop: 56,
+        marginTop: 12,
         marginLeft: 20,
       },
       contentContainer:{

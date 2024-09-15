@@ -23,7 +23,6 @@ export default function VazamentoDado() {
           color: theme === 'light'? '#1B1A26' :'#F5F5F5',
           fontSize: 21,
           alignSelf: 'flex-start',
-          marginTop: 56,
         },
         textInput: {
           backgroundColor: theme === 'light'? '#DDDDDD' :'#32313c',
