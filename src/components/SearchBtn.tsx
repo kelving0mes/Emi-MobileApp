@@ -1,4 +1,4 @@
-import { Icon } from "@rneui/base";
+import Icon from 'react-native-vector-icons/FontAwesome'
 import { StyleSheet, TouchableOpacity } from "react-native";
 import { useTheme } from "../hooks/useTheme";
 
@@ -19,7 +19,7 @@ export default function SearchBtn({onPress}: onPressProps) {
     });
     return (
         <TouchableOpacity style={styles.searchBtn} onPress={onPress} >
-            <Icon name='search' color={theme === 'light'? '#F5F5F5' :'#1B1A26'}/>
+            <Icon name='search' size={22} color={theme === 'light'? '#F5F5F5' :'#1B1A26'}/>
         </TouchableOpacity>
     )
 }

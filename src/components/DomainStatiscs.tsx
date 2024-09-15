@@ -41,7 +41,7 @@ export default function DomainStatistics(number: numberProps) {
     })
     return(
         <View style={styles.container}>
-            <View style={{flexDirection: 'row'}}>
+            <View style={{minWidth: '100%', flexDirection:"row", justifyContent: 'space-between' }}>
                 <Text style={styles.textTitle}>Últimos 30 dias</Text>
                 <Image source={require('../../assets/signal-live.gif')} style={{width: 30, height: 30}}/>
             </View>
