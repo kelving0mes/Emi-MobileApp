@@ -41,9 +41,9 @@ export default function DomainStatistics(number: numberProps) {
     })
     return(
         <View style={styles.container}>
-            <View style={{flexDirection: 'row', justifyContent:"space-between"}}>
+            <View style={{flexDirection: 'row'}}>
                 <Text style={styles.textTitle}>Últimos 30 dias</Text>
-                <Image source={require('../../assets/broadcast.svg')} style={{width: 40, height: 40}}/>
+                <Image source={require('../../assets/signal-live.gif')} style={{width: 30, height: 30}}/>
             </View>
             <View style={{flexDirection: 'row', alignSelf:'center'}}>
                 <Text style={styles.numbertext}>{number.detectedSubdomain}</Text>

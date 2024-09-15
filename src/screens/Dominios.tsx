@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
+import { ActivityIndicator, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { useTheme } from "../hooks/useTheme";
 
 import SearchBtn from '../components/SearchBtn';
@@ -59,7 +59,8 @@ export default function MonitorarDominios() {
             value={domain} onChangeText={setDomain} />
           <SearchBtn onPress={handlePress}/>
         </View>
-      {showText && <Text style={styles.text}>Buscando por {domain}</Text>}
+      {showText && <Text style={styles.text}>Buscando por {domain}</Text> &&
+        <ActivityIndicator size="large" color="#F2600C" />}
       </ScrollView>
     </SafeAreaView>
   )
