@@ -2,6 +2,7 @@ import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, View } from "rea
 import { useTheme } from "../hooks/useTheme";
 import LogoutBtn from "../components/LogoutBtn";
 import ThemeSwitch from "../components/ThemeSwitch";
+import DomainChart from "../components/DomainChart";
 
 export default function Dashboard() {
     const {theme} = useTheme()
@@ -14,8 +15,8 @@ export default function Dashboard() {
         justifyContent: 'center',
       },
       contentContainer:{
-        flexGrow: 1,
-        gap: 12,
+        marginTop: 12,
+        gap: 20,
         paddingBottom: 80,
         alignItems: 'center',
         justifyContent: 'center',
@@ -29,6 +30,8 @@ export default function Dashboard() {
       <SafeAreaView style={styles.container}>
           <StatusBar barStyle= {theme === 'light'? 'dark-content':'light-content'} backgroundColor={theme === 'light'? '#F5F5F5':'#1B1A26'} />
           <ScrollView contentContainerStyle={styles.contentContainer}>
+            <Text style={styles.text}>Estatísticas do Monitoramento</Text>
+            <DomainChart/>
             <View style={{flexDirection:"row", alignItems:"center", justifyContent:"space-between", minWidth:'90%' }}>
               <Text style={styles.text}>Alterar tema</Text>
               <ThemeSwitch/>

@@ -21,7 +21,6 @@ export default function LogoutBtn() {
             borderRadius: 5,
             alignItems: 'center',
             justifyContent: 'center',
-            marginTop: 40,
         },
     });
 

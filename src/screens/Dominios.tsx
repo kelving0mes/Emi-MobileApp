@@ -3,7 +3,7 @@ import { ActivityIndicator, SafeAreaView, ScrollView, StyleSheet, Text, TextInpu
 import { useTheme } from "../hooks/useTheme";
 
 import SearchBtn from '../components/SearchBtn';
-import DomainStatistics from '../components/DomainStatiscs';
+import DomainStatistics from '../components/DomainStatistics';
 
 export default function MonitorarDominios() {
   const { theme } = useTheme()
@@ -51,7 +51,7 @@ export default function MonitorarDominios() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.contentContainer}>
-        <DomainStatistics detectedSubdomain={34} takedownNumber={19} activeSubdomain={15}/>
+        <DomainStatistics detectedSubdomain={17} takedownNumber={14} activeSubdomain={3}/>
         <Text style={styles.text}>Pesquisar domínios</Text>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', }}>
           <TextInput placeholder="Ex: fiap.com.br" style={styles.textInput}
