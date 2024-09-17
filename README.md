@@ -49,23 +49,23 @@ npm start
  
 ## Screenshots da aplicação
 <p align="center">
-  <img src="https://i.postimg.cc/nrgVSJgR/Screenshot-1726533915.png" hspace="10">
-  <img src="https://i.postimg.cc/Nj1GDZ4D/Screenshot-1726533917.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/nrgVSJgR/Screenshot-1726533915.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/Nj1GDZ4D/Screenshot-1726533917.png" hspace="10">
 </p>
 <p align="center">
-  <img src="https://i.postimg.cc/0yg2p9pr/Screenshot-1726533922.png" hspace="10">
-  <img src="https://i.postimg.cc/q7c5mHzk/Screenshot-1726534334.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/0yg2p9pr/Screenshot-1726533922.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/q7c5mHzk/Screenshot-1726534334.png" hspace="10">
 </p>
 <p align="center">
-  <img src="https://i.postimg.cc/Hs8kcr8f/Screenshot-1726533926.png" hspace="10">
-  <img src="https://i.postimg.cc/cHX5S7R2/Screenshot-1726534336.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/Hs8kcr8f/Screenshot-1726533926.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/cHX5S7R2/Screenshot-1726534336.png" hspace="10">
 </p>
 <p align="center">
-  <img src="https://i.postimg.cc/s2sjNKHr/Screenshot-1726533929.png" hspace="10">
-  <img src="https://i.postimg.cc/FzzCsfGR/Screenshot-1726534337.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/s2sjNKHr/Screenshot-1726533929.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/FzzCsfGR/Screenshot-1726534337.png" hspace="10">
 </p>
 <p align="center">
-  <img src="https://i.postimg.cc/wvB66Md4/Screenshot-1726533932.png" hspace="10">
-  <img src="https://i.postimg.cc/vTKq1QSv/Screenshot-1726534339.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/wvB66Md4/Screenshot-1726533932.png" hspace="10">
+  <img width="216" height="444" src="https://i.postimg.cc/vTKq1QSv/Screenshot-1726534339.png" hspace="10">
 </p>
  
