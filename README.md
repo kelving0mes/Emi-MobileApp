@@ -39,7 +39,7 @@ npm install
 npm start
 ```
 ##
-> [!NOTE]  
+> [!WARNING]  
 > Funções a serem implementadas:
 > - Autenticação
 > - Chamada de API na aba de monitoramento de domínios
